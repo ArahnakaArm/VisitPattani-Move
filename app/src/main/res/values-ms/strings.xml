@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    ///////Malay////////
+    ////CHOOSEN////
+    <string name = "CH1">Selamat datang ke</string>
+    <string name = "CH2">VisitPattani</string>
+    <string name = "CH3">Setiap perjalanan .. ada di tangan anda</string>
+    <string name = "CH4">bahasa</string>
+    <string name = "CH5">Thai</string>
+    <string name = "CH6">Inggeris</string>
+    <string name = "CH7">Melayu</string>
+    <string name = "CH8">Enter</string>
+    //// LOGIN ////
+    <string name = "LG1">Log masuk</string>
+    <string name = "LG2">E-mel</string>
+    <string name = "LG3">kata kunci</string>
+    <string name = "LG4">Daftar</string>
+    <string name = "LG5">Lupa kata laluan anda?</string>
+    <string name = "LG6">Log masuk</string>
+    <string name = "LG7">Tidak sekarang</string>
+    //// RESGISTER ////
+    <string name = "RG1">Daftar</string>
+    <string name = "RG2">E-mel</string>
+    <string name = "RG3">kata kunci</string>
+    <string name = "RG4">Kata Laluan sekali lagi</string>
+    <string name = "RG5">Saya terima</string>
+    <string name = "RG6">Terma dan Syarat Penggunaan</string>
+    <string name = "RG7">Daftar</string>
+    <string name = "RG8">Log masuk</string>
+    //// FORGET /////
+    <string name = "FG1">Tetapkan semula kata laluan</string>
+    <string name = "FG2">Sila masukkan e-mel anda</string>
+    <string name = "FG3">E-mel</string>
+    <string name = "FG4">mengesahkan</string>
+    <string name = "FG5">Log masuk</string>
+    //// PROFIL ////
+    <string name = "PF1">Sila masukkan maklumat tambahan.</string>
+    <string name = "PF2">Nama-Nama Akhir</string>
+    <string name = "PF3">Sex</string>
+    <string name = "PF4">Male</string>
+    <string name = "PF5">wanita</string>
+        <string name = "PF6">umur</string>
+    <string name = "PF7">Kebangsaan</string>
+    <string name = "PF8">alamat</string>
+    <string name = "PF9">Penginapan</string>
+    <string name = "PF10">Anggaran perjalanan</string>
+    <string name = "PF11">baht</string>
+    <string name = "PF12">Masa perjalanan</string>
+    <string name = "PF13">hari</string>
+    <string name = "PF14">Kenderaan perjalanan</string>
+    <string name = "PF15">Simpan data</string>
+    //// MAIN ////
+    <string name = "MA1">Tarikan</string>
+    <string name = "MA2">Cari lebih ></string>
+    <string name = "MA3">Tema perjalanan</string>
+    <string name = "MA4">Cari lebih ></string>
+    <string name = "MA5">Restoran</string>
+    <string name = "MA6">Cari lebih ></string>
+    //// TRAVEL ////
+    <string name = "TV1">Sorotan</string>
+    <string name = "TV2">Berita baru</string>
+    <string name = "TV3">Tema</string>
+    <string name = "TV4">Perancangan</string>
+    <string name = "TV5">diary</string>
+    <string name = "TV6">Restoran</string>
+    <string name = "TV7">penginapan</string>
+    <string name = "TV8">shop</string>
+    <string name = "TV9">Salat</string>
+    <string name = "TV10">nilai mata wang</string>
+    <string name = "TV11">Bantuan</string>
+    <string name = "TV12">Perihal</string>
+    ///// CHECKIN (MAP) /////
+    <string name = "CI1">Cari lokasi</string>
+    <string name = "CI2">Daftar masuk</string>
+    ///// MAP2 /////
+    <string name = "MP1">Cari lokasi</string>
+    <string name = "MP2">Current</string>
+    <string name = "MP3">Berdekatan</string>
+    <string name = "MP4">Panduan</string>
+    <string name = "MP5">Kosongkan tanda</string>
+    <string name = "MP6">Menu</string>
+    <string name = "MP7">Ukur</string>
+    <string name = "MP8">Beach</string>
+    <string name = "MP9">Park</string>
+    <string name = "MP10">Museum</string>
+    <string name = "MP11">Restoran</string>
+    <string name = "MP12">Shop</string>
+    <string name = "MP13">minyak pam</string>
+    ///// BOTTOM NAVI ////
+    <string name = "BN1">Halaman utama</string>
+    <string name = "BN2">Perjalanan</string>
+    <string name = "BN3">Daftar masuk</string>
+    <string name = "BN4">Maps</string>
+    ////SETTING////
+    <string name = "ST1">Language</string>
+    <string name = "ST2">Sejarah Pattani Province</string>
+    <string name = "ST3">Syarat dan syarat penggunaan</string>
+    <string name = "ST4">Tentang kami</string>
+    <string name = "ST5">Keluar</string>
+    ////AGREE 1 - 2////
+    <string name = "AG1">Syarat dan syarat penggunaan VisitPattani</string>
+    <string name = "AG2">Untuk melindungi hak anda, sila baca semua syarat perkhidmatan dan bersetuju untuk mematuhi semua terma dan syarat berikut dari perkhidmatan ahli.</string>
+    <string name = "AG3">1. Definisi</string>
+    <string name = "AG4">Kata-kata dan frasa berikut mempunyai makna seperti yang ditakrifkan di bawah apabila digunakan dalam terma dan syarat</string>
+    <string name = "AG5">1.1 Kandungan bermaksud maklumat seperti teks, fail audio, muzik, imej, video, perisian, program, kod komputer dan lain-lain perkara yang serupa.</string>
+    <string name = "AG6">1.2 Kandungan bermaksud kandungan yang boleh diakses menerusi perkhidmatan.</string>
+    <string name = "AG7">1.3 Kandungan dari pengguna bermaksud kandungan yang dihantar, dihantar, atau dimuatkan oleh pengguna.</string>
+    <string name = "AG8">1.4 Syiling bermaksud mata wang maya yang boleh digunakan oleh pengguna untuk membayar kandungan dan perkhidmatan yang ditawarkan syarikat, yang dikenakan</string>
+    <string name = "AG9">1.5 Terma dan syarat tambahan merujuk kepada dokumen yang syarikat itu Dikeluarkan atau dimuat naik berhubung dengan Perkhidmatan di bawah nama, perjanjian, garis panduan, dasar dan sebagainya.</string>
+    <string name = "AG10">2. Bersetuju dengan terma dan syarat</string>
+    <string name = "AG11">2.1 Semua pengguna mesti menggunakan perkhidmatan ini. Mengikut terma yang dinyatakan dalam terma dan syarat Pengguna tidak dapat menggunakan perkhidmatan ini. Kecuali kecuali Pengguna bersetuju untuk menerima terma dan syarat. Perjanjian itu sah dan tidak dapat dibatalkan.</string>
+    <string name = "AG12">2.2 Kanak-kanak boleh menggunakan perkhidmatan ini Hanya boleh diperoleh dengan persetujuan ibu bapa atau penjaga yang sah Setuju untuk menerima bahawa ia adalah lengkap dan tidak boleh ditarik balik</string>
+    <string name = "AG13">2.3 Dengan menggunakan perkhidmatan ini, pengguna bersetuju untuk menerima terma dan syarat. Perjanjian itu sah dan tidak dapat dibatalkan.</string>
+    <string name = "AG14">2.4 Sekiranya terdapat terma dan syarat Untuk perkhidmatan tambahan Pengguna mesti mematuhi terma dan syarat. Serta terma dan syarat ini</string>
+    <string name = "AG15">3. Pindaan kepada terma dan syarat</string>
+    <string name = "AG16">Syarikat Boleh meminda terma dan syarat atau terma dan syarat tambahan apabila syarikat menganggapnya perlu Tanpa memberi notis terlebih dahulu kepada pengguna Pindaan akan berkuatkuasa apabila terma dan syarat yang telah disemak diumumkan atau terma dan syarat. Pindaan tambahan dibuat di tempat yang sesuai di dalam laman web syarikat itu Adakah pengendali Para pengguna terus menggunakan perkhidmatan ini, dan pengguna bersetuju bahawa penerimaan, kesahihan dan pembatalan terma dan syarat yang diubah dan terma dan syarat tidak diterima. Lebih banyak diubah suai Pengguna perlu menyemak terma dan syarat. Secara kerap semasa penggunaan perkhidmatan ini Kerana mungkin tiada pemberitahuan berasingan mengenai pindaan kepada terma dan syarat Seperti</string>
+    <string name = "AG17">4. Akaun</string>
+    <string name = "AG18">4.1 Apabila pengguna memberikan maklumat mengenai diri mereka kepada syarikat Pengguna mesti memberikan maklumat yang benar. Betul dan lengkap semasa menggunakan perkhidmatan Dan kemas kini maklumat hingga sekarang.</string>
+    <string name = "AG19">4.2 Jika pengguna mendaftarkan kata laluan semasa menggunakan perkhidmatan tersebut Pengguna mesti berhati-hati dan mempunyai tanggungjawab yang munasabah untuk mengelakkan penggunaan kata laluan yang menyalahi undang-undang. Syarikat boleh mengambil pelbagai aktiviti. Itu dikendalikan menggunakan kata laluan sedemikian Adalah satu aktiviti yang pemilik kata laluan perlu lakukan secara manual.</string>
+    <string name = "AG20">4.3 Pengguna yang berdaftar untuk menggunakan perkhidmatan ini Boleh memadamkan akaun mereka dan berhenti menggunakan perkhidmatan pada bila-bila masa Apa sahaja</string>
+    <string name = "AG21">4.4 Syarikat boleh menggantung atau memadamkan akaun Pengguna tanpa memberi notis terlebih dahulu kepada Pengguna jika Syarikat menganggap bahawa Pengguna melanggar atau melanggar Terma dan Syarat</string>
+    <string name = "AG22">4.5 Syarikat berhak untuk memadam sebarang akaun. Itu belum diaktifkan selama 1 tahun atau lebih lama sejak tarikh pengaktifan akaun terkini Tanpa memberi notis terlebih dahulu Kepada pengguna</string>
+    <string name = "AG23">4.6 Hak untuk menggunakan perkhidmatan pengguna akan ditamatkan apabila akaun pengguna dipadam, atas sebab apa pun, akaun itu tidak akan dapat pulih walaupun pengguna secara tidak sengaja memadamkan akaunnya. Mintalah pengguna untuk menyedarinya juga.</string>
+    <string name = "AG24">4.7 Setiap akaun dalam perkhidmatan Adalah dimaksudkan untuk kegunaan tertentu dan kepunyaan pemilik tunggal akaun Pengguna tidak boleh memindahkan atau meminjamkan akaun mereka kepada mana-mana pihak ketiga. Dan mana-mana pihak ketiga Tidak dapat mewakilkan akaun dari pengguna</string>
+    <string name = "AG25">5. Perlindungan privasi</string>
+    <string name = "AG26">5.1 Syarikat memberikan kepentingan kepada privasi pengguna syarikat. Dalam urutan pertama</string>
+    <string name = "AG27">5.2 Syarikat menjanjikan untuk melindungi privasi dan maklumat peribadi para pengguna syarikat mengikut dasar garis perlindungan privasi.</string>
+    <string name = "AG28">5.3 Syarikat menjanjikan untuk mengambil perhatian dan perhatian sepenuhnya terhadap langkah-langkah keselamatan syarikat. Untuk memastikan keselamatan apa-apa maklumat semua pengguna</string>
+    <string name = "AG29">Back</string>
+    //// HIGHLIGHT2 ////
+    <string name = "HL1">Lokasi popular</string>
+    <string name = "HL2">Cari lebih ></string>
+    //// NEWS ////
+    <string name = "NS1">Berita penting</string>
+    <string name = "NS2">Cari lebih ></string>
+    //// DIARY ////
+    <string name = "DR1">Hari ini</string>
+    <string name = "DR2">3 hari lalu</string>
+    //// FOOD (MAIN + TRAVEL) ////
+    <string name = "FO1">Restoran</string>
+    <string name = "FO2">Cari lebih ></string>
+    //// ATTRACT (MAIN) ////
+    <string name = "AT1">Tarikan</string>
+    <string name = "AT2">Cari lebih ></string>
+    //// HOTEL ////
+    <string name = "HT1">Accommodation</string>
+    <string name = "HT2">Cari lebih ></string>
+    //// MARKET ////
+    <string name = "MK1">Shop</string>
+    <string name = "MK2">Cari lebih ></string>
+    //// PRAY /////
+    <string name = "PR1">Lokasi doa</string>
+    <string name = "PR2">Cari lebih ></string>
+    //// VERSION ////
+    <string name = "VS1">Version: 1.0.3</string>
+    <string name = "VS2">Disokong oleh: Pusat Perkhidmatan Akademik Prince of Songkla University</string>
+
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="google_maps_API">AIzaSyD4B1StKeCRf9rta5dttAeKPshaSVyx8VQ</string>
+
+    <string name="recent_news">VISITPATTANI</string>
+    <string name="recent_news2">ข่าวสำคัญ</string>
+    <string name="recent_newsHL">สถานที่ยอดนิยม</string>
+    <string name="in_news">ข่าวสารเเละข้อมูลดังต่อไปนี้ จะถูกจำกัดขอบเขตภายในจังหวัดปัตตานนีเท่านั้น</string>
+    <string name="publish_date">2018-10-29 15:00:00</string>
+
+    <string name="TitlebtnHelp">ยินดีต้อนรับเข้าสู่ VisitPattaniApp</string>
+    <string name="TitlebtnHelp2">เรียนท่านผู้ใช้ขอความกรุณากรอกข้อมูล เพื่อ...</string>
+
+
+
+    ////SPIN PROFILE/////
+    <string-array name = "Vehicle">
+          <item>Pandu kereta</item>
+          <item>Pengangkutan awam</item>
+          <item>Berjalan</item>
+          <item>Berbasikal</item>
+          <item>Penerbangan</item>
+          <item>Kumpulan lawatan</item>
+          <item>Lain</item>
+    </string-array>
+    <string-array name = "Nation">
+          <item>Thai</item>
+          <item>Indonesia</item>
+          <item>Kemboja</item>
+          <item>Vietnam</item>
+          <item>Lao</item>
+          <item>Cina</item>
+          <item>Amerika Syarikat</item>
+          <item>Australia</item>
+          <item>Lain</item>
+    </string-array>
+
+
+
+    <string name="title_activity_help_details">HelpDetails</string>
+    <string name="title_activity_tab_help">TabHelpActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_prays_web_view">PraysWebView</string>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_viewMK"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"/>
+
+            <TextView
+                android:id="@+id/nameMK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@id/image_viewMK"
+                android:layout_marginLeft="5dp"
+                android:text="Name"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="@font/mitr_semibold"
+                android:textColor="@color/colorBlueJean"/>
+
+            <ImageView
+                android:id="@+id/ratingMK"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_alignStart="@+id/nameMK"
+                android:layout_below="@+id/nameMK"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <TextView
+                android:id="@+id/priceeMK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/nameMK"
+                android:layout_below="@+id/ratingMK"
+                android:fontFamily="@font/mitr_semibold"
+                android:layout_marginTop="5dp"
+                android:text="ราคา : "
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priceMK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/priceeMK"
+                android:layout_toEndOf="@+id/priceeMK"
+                android:fontFamily="@font/mitr_semibold"
+                android:text="price"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tellMK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/nameMK"
+                android:layout_below="@+id/priceMK"
+                android:fontFamily="@font/mitr_semibold"
+                android:layout_marginTop="5dp"
+                android:text="ประเภท : "
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/telMK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tellMK"
+                android:layout_toEndOf="@+id/tellMK"
+                android:fontFamily="@font/mitr_semibold"
+                android:text="phone"
+                android:textColor="#000"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/image_viewMK"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:contentDescription="@string/recent_news"
+                    android:src="@drawable/ic_maps_and_flags2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ตำเเหน่ง"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:id="@+id/locaMK"
+                    android:layout_marginLeft="6dp"
+                    android:fontFamily="@font/mitr_semibold"
+                    android:gravity="center_vertical"
+                    android:textColor="#000"
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

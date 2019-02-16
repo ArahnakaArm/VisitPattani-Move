@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#f9f9f9"
+    tools:context=".spiner">
+>
+
+    <LinearLayout
+
+        android:layout_width="700px"
+        android:layout_marginTop="100px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/li1"
+        >
+        <Spinner
+            android:layout_width="700px"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+
+
+
+
+            >
+
+        </Spinner>
+
+
+
+    </LinearLayout>
+<!--
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:layout_below="@+id/li3"
+        android:orientation="horizontal"
+        android:id="@+id/radiog"
+        android:layout_centerHorizontal="true">
+
+            <RadioButton
+                android:id="@+id/radio_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="คนเดียว"
+
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radio_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เป็นคู่"
+               />
+
+            <RadioButton
+                android:id="@+id/radio_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="เป็นกลุ่ม"
+                />
+
+        </RadioGroup>
+
+-->
+
+    <LinearLayout
+        android:layout_width="700px"
+        android:layout_marginTop="500px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:id="@+id/li2"
+        android:layout_centerHorizontal="true">
+
+        <Spinner
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+
+            >
+
+        </Spinner>
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="175px"
+        android:layout_height="175px"
+        android:layout_marginTop="50px"
+        android:layout_below="@+id/li1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ig1"
+        android:src="@drawable/down" />
+
+      <ImageView
+          android:layout_width="175px"
+          android:layout_height="175px"
+          android:layout_below="@+id/li2"
+          android:layout_marginTop="50px"
+          android:layout_centerHorizontal="true"
+          android:id="@+id/down2"
+          android:visibility="invisible"
+          android:src="@drawable/down" />
+   <LinearLayout
+          android:layout_width="700px"
+          android:layout_marginTop="900px"
+          android:id="@+id/li3"
+          android:layout_height="wrap_content"
+          android:background="@drawable/border"
+          android:layout_centerHorizontal="true"
+       android:visibility="invisible">
+
+          <Spinner
+              android:id="@+id/spinner3"
+              android:layout_width="700px"
+              android:layout_height="wrap_content"
+
+
+
+              >
+
+          </Spinner>
+
+
+
+
+      </LinearLayout>
+
+    <Button
+        android:id="@+id/btt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/li3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100px"
+        android:background="@drawable/blueborder"
+
+        android:text="Let's Go"
+        android:textColor="@color/white" />
+</RelativeLayout>

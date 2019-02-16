@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_weight="1"
+            android:id="@+id/imagegallMK"
+            android:scaleType="centerCrop"
+            android:src="@drawable/loading"
+            android:background="@drawable/loading"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/desMK"
+            android:layout_marginTop="7dp"
+            android:text="เวลาเปิด - ปิดทำการ"
+            android:fontFamily="@font/mitr_semibold"
+            android:textStyle="italic"
+            android:textColor="@color/Dark"
+            android:textSize="18sp"
+            android:layout_below="@+id/image_descriptionMK"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionMK"
+            android:layout_below="@+id/des_food"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="Canada"
+            android:textSize="14sp"
+            android:textColor="#000"
+            />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:weightSum="1"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descriptionMK"
+                android:layout_marginLeft="10dp"
+
+                android:text="ที่อยู่"
+                android:fontFamily="@font/mitr_semibold"
+                android:id="@+id/locaMK"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textStyle="italic"
+                android:layout_weight="0.1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/locateMK"
+                android:layout_weight="0.85"
+                android:text="Canada"
+                android:textSize="14sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:weightSum="1"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/priceeMK"
+                android:layout_weight="0.05"
+                android:layout_marginLeft="10dp"
+                android:text="ราคา"
+                android:fontFamily="@font/mitr_semibold"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/priceMK"
+                android:layout_below="@+id/locate"
+                android:layout_toRightOf="@+id/tell"
+                android:layout_marginLeft="40dp"
+                android:layout_weight="0.95"
+                android:text="Canada"
+                android:textSize="14sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:weightSum="1"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tellMK"
+                android:layout_weight="0.05"
+                android:layout_marginLeft="10dp"
+                android:text="ประเภทสินค้า"
+                android:fontFamily="@font/mitr_semibold"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textStyle="italic"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/telMK"
+                android:layout_below="@+id/priceeMK"
+                android:layout_toRightOf="@+id/tell"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.95"
+                android:text="Canada"
+                android:textSize="14sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:weightSum="1"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/DateeMK"
+                android:layout_weight="0.05"
+                android:layout_marginLeft="10dp"
+                android:text="คะเเนน"
+                android:fontFamily="@font/mitr_semibold"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:textStyle="italic"/>
+
+            <ImageView
+                android:id="@+id/ratingMK"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/tel"
+                android:layout_toRightOf="@+id/Datee"
+                android:layout_marginLeft="15dp"
+                android:background="@color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"
+                android:text="Timer"
+                android:textSize="14sp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <include layout="@layout/buttom_navi"/>
+</RelativeLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            app:cardElevation="3dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textTitleRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/mitr_extralight"
+                    android:text="เพิ่มร้านค้า"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textTitleRegister"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp">
+
+                    <ImageView
+                        android:id="@+id/imgView_userIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorBlueJean"
+                        android:padding="8dp"
+                        android:src="@drawable/shoppp"
+                        android:tint="@color/white" />
+
+                    <EditText
+                        android:id="@+id/textName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imgView_userIcon"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imgView_userIcon"
+                        android:background="@color/editTextBG"
+                        android:fontFamily="@font/mitr_extralight"
+                        android:hint="ชื่อร้านค้า"
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="20dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativeLayout1"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp">
+
+                    <ImageView
+                        android:id="@+id/imgView_passwordIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorBlueJean"
+                        android:padding="8dp"
+                        android:src="@drawable/gps"
+                        android:tint="@color/white" />
+
+                    <EditText
+                        android:id="@+id/textLocal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imgView_passwordIcon"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imgView_passwordIcon"
+                        android:background="@color/editTextBG"
+                        android:fontFamily="@font/mitr_extralight"
+                        android:hint="ที่อยู่"
+                        android:inputType="text"
+                        android:paddingLeft="20dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativeLayout2"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp">
+
+                    <ImageView
+                        android:id="@+id/imgView_repasswordIcon2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorBlueJean"
+                        android:padding="8dp"
+                        android:src="@drawable/watch"
+                        android:tint="@color/white" />
+
+                    <EditText
+                        android:id="@+id/textTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imgView_repasswordIcon2"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imgView_repasswordIcon2"
+                        android:background="@color/editTextBG"
+                        android:fontFamily="@font/mitr_extralight"
+                        android:hint="เวลาเปิด-ปิด"
+                        android:inputType="text"
+                        android:paddingLeft="20dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativeLayout3"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp">
+
+                    <ImageView
+                        android:id="@+id/imgView_repasswordIcon3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorBlueJean"
+                        android:padding="8dp"
+                        android:src="@drawable/phone"
+                        android:tint="@color/white" />
+
+                    <EditText
+                        android:id="@+id/textTel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imgView_repasswordIcon3"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imgView_repasswordIcon3"
+                        android:background="@color/editTextBG"
+                        android:fontFamily="@font/mitr_extralight"
+                        android:hint="เบอร์โทรศัพท์"
+                        android:inputType="number"
+                        android:maxLength="10"
+                        android:paddingLeft="20dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativeLayout4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="30dp">
+
+                    <ImageView
+                        android:id="@+id/imgView_repasswordIcon4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorBlueJean"
+                        android:padding="8dp"
+                        android:src="@drawable/info"
+                        android:tint="@color/white" />
+
+                    <EditText
+                        android:id="@+id/textDes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imgView_repasswordIcon4"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/imgView_repasswordIcon4"
+                        android:background="@color/editTextBG"
+                        android:fontFamily="@font/mitr_extralight"
+                        android:hint="คำอธิบาย(สั้นๆ)"
+                        android:inputType="text"
+                        android:paddingLeft="20dp"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativeLayout5"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/relativeLayout6">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/mitr_extralight"
+                        android:paddingLeft="20dp"
+                        android:text="กรุณาเลือกรูปภาพ"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button_choose"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@color/colorBlueJean"
+                        android:fontFamily="@font/mitr_extralight"
+                        android:text="เลือก"
+                        android:textColor="@color/white"
+                        android:textSize="10sp" />
+                </LinearLayout>
+                <ImageView
+                    android:id="@+id/imageshow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_below="@id/relativeLayout6"
+                    android:layout_margin="10dp" />
+
+                <ProgressBar
+                    android:id="@+id/processbar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageshow"
+                    android:layout_alignParentStart="true" />
+                <Button
+                    android:id="@+id/next"
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                  android:layout_below="@+id/imageshow"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@color/colorBlueJean"
+                    android:fontFamily="@font/mitr_extralight"
+                    android:text="เพิ่มร้านค้า"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+</LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>
+
+
+
+
+

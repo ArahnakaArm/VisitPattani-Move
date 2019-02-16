@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Help1"
+        android:title="โรงพยาบาล"
+        />
+
+    <item android:id="@+id/Help2"
+        android:title="สถานีตํารวจ"
+        />
+
+    <item android:id="@+id/Help3"
+        android:title="ศูนย์บริการนักท่องเที่ยว"
+        />
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/home_icon_silhouette"
+        android:title="@string/BN1"
+        />
+    <item
+        android:id="@+id/travelinfo"
+        android:icon="@drawable/plane"
+        android:title="@string/BN2"
+        />
+    <item
+        android:id="@+id/checkinnavi"
+        android:icon="@drawable/check"
+        android:title="@string/BN3"
+        />
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/street_map"
+        android:title="@string/BN4"
+        />
+
+</menu>

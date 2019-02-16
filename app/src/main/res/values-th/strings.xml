@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    ///////Thai////////
+    ////CHOOSEN////
+    <string name="CH1">ยินดีต้อนรับสู่</string>
+    <string name="CH2">VisitPattani</string>
+    <string name="CH3">ทุกการท่องเที่ยว...อยู่ในมือคุณ</string>
+    <string name="CH4">ภาษา</string>
+    <string name="CH5">ไทย</string>
+    <string name="CH6">อังกฤษ</string>
+    <string name="CH7">มลายู</string>
+    <string name="CH8">เข้าใช้งาน</string>
+    ////LOGIN////
+    <string name="LG1">เข้าสู่ระบบ</string>
+    <string name="LG2">อีเมล์</string>
+    <string name="LG3">รหัสผ่าน</string>
+    <string name="LG4">สมัครสมาชิก</string>
+    <string name="LG5">ลืมรหัสผ่าน?</string>
+    <string name="LG6">เข้าสู่ระบบ</string>
+    <string name="LG7">ไม่ใช่ตอนนี้</string>
+    ////RESGISTER////
+    <string name="RG1">สมัครสมาชิก</string>
+    <string name="RG2">อีเมล์</string>
+    <string name="RG3">รหัสผ่าน</string>
+    <string name="RG4">รหัสผ่านอีกครั้ง</string>
+    <string name="RG5">ฉันยอมรับ</string>
+    <string name="RG6">ข้อตกลงและเงื่อนไขการใช้งาน</string>
+    <string name="RG7">ลงทะเบียน</string>
+    <string name="RG8">เข้าสู่ระบบ</string>
+    ////FORGET/////
+    <string name="FG1">รีเซ็ตรหัสผ่าน</string>
+    <string name="FG2">กรุณากรอกอีเมล์ของคุณ</string>
+    <string name="FG3">อีเมล์</string>
+    <string name="FG4">ยืนยัน</string>
+    <string name="FG5">เข้าสู่ระบบ</string>
+    ////PROFILE////
+    <string name="PF1">กรุณากรอกข้อมูลเพิ่มเตืม</string>
+    <string name="PF2">ชื่อ-นามสกุล</string>
+    <string name="PF3">เพศ</string>
+    <string name="PF4">ชาย</string>
+    <string name="PF5">หญิง</string>
+    <string name="PF6">อายุ</string>
+    <string name="PF7">สัญชาติ</string>
+    <string name="PF8">ที่อยู่</string>
+    <string name="PF9">สถานที่พัก</string>
+    <string name="PF10">งบประมาณท่องเที่ยว</string>
+    <string name="PF11">บาท</string>
+    <string name="PF12">ระยะเวลาการท่องเที่ยว</string>
+    <string name="PF13">วัน</string>
+    <string name="PF14">พาหนะใช้เดินทาง</string>
+    <string name="PF15">บันทึกข้อมูล</string>
+    ////MAIN////
+    <string name="MA1">สถานที่ท่องเที่ยว</string>
+    <string name="MA2">ดูทั้งหมด ></string>
+    <string name="MA3">ธีมการท่องเที่ยว</string>
+    <string name="MA4">ดูทั้งหมด ></string>
+    <string name="MA5">ร้านอาหาร</string>
+    <string name="MA6">ดูทั้งหมด ></string>
+    ////TRAVEL////
+    <string name="TV1">ไฮไลท์</string>
+    <string name="TV2">ข่าวใหม่</string>
+    <string name="TV3">ธีม</string>
+    <string name="TV4">วางแผน</string>
+    <string name="TV5">ไดอารี่</string>
+    <string name="TV6">ร้านอาหาร</string>
+    <string name="TV7">ที่พัก</string>
+    <string name="TV8">ร้านค้า</string>
+    <string name="TV9">ละหมาด</string>
+    <string name="TV10">ค่าเงิน</string>
+    <string name="TV11">ช่วยเหลือ</string>
+    <string name="TV12">เกี่ยวกับ</string>
+    /////CHECKIN(MAP)/////
+    <string name="CI1">ค้นหาสถานที่</string>
+    <string name="CI2">เช็คอิน</string>
+    /////MAP2/////
+    <string name="MP1">ค้นหาสถานที่</string>
+    <string name="MP2">ปัจจุบัน</string>
+    <string name="MP3">ใกล้เคียง</string>
+    <string name="MP4">เเนะนำ</string>
+    <string name="MP5">ล้างมาร์ค</string>
+    <string name="MP6">เมนู</string>
+    <string name="MP7">วัด</string>
+    <string name="MP8">ชายหาด</string>
+    <string name="MP9">อุทยาน</string>
+    <string name="MP10">พิพิธภัณฑ์</string>
+    <string name="MP11">ร้านอาหาร</string>
+    <string name="MP12">ร้านค้า</string>
+    <string name="MP13">ปั๊มน้ํามัน</string>
+    /////BOTTOM NAVI////
+    <string name="BN1">หน้าหลัก</string>
+    <string name="BN2">ท่องเที่ยว</string>
+    <string name="BN3">เช็คอิน</string>
+    <string name="BN4">แผนที่</string>
+    ////SETTING////
+    <string name="ST1">ภาษา</string>
+    <string name="ST2">ประวัติ จ.ปัตตานี</string>
+    <string name="ST3">ข้อกำหนดเเละเงื่อนไขการใช้งาน</string>
+    <string name="ST4">เกียวกับเรา</string>
+    <string name="ST5">ออกจากระบบ</string>
+    ////AGREE 1 - 2////
+    <string name="AG1">ข้อกำหนดและเงื่อนไขในการใช้งาน VisitPattani</string>
+    <string name="AG2">เพื่อปกป้องสิทธิของคุณโปรดอ่านเงื่อนไขการให้บริการทั้งหมดและตกลงที่จะปฏิบัติตามข้อตกลงและเงื่อนไขทั้งหมดต่อไปนี้ของบริการสมาชิก</string>
+    <string name="AG3">1. คำนิยาม</string>
+    <string name="AG4">คำและข้อความต่อไปนี้จะมีความหมายตามที่กำหนดไว้ด้านล่างนี้เมื่อมีการใช้ในข้อกำหนดและเงื่อนไขฯ</string>
+    <string name="AG5">1.1 เนื้อหา หมายถึง ข้อมูล เช่น ข้อความ ไฟล์เสียง เพลง รูปภาพ วิดีโอ ซอฟต์แวร์ โปรแกรม รหัสคอมพิวเตอร์ และสิ่งอื่นๆ ที่คล้ายคลึงกัน</string>
+    <string name="AG6">1.2 เนื้อหาฯ หมายถึง เนื้อหาที่สามารถเข้าถึงได้ผ่านทางบริการฯ</string>
+    <string name="AG7">1.3 เนื้อหาจากผู้ใช้ หมายถึง เนื้อหาที่ผู้ใช้ได้ส่ง ส่งผ่าน หรือ อัพโหลด</string>
+    <string name="AG8">1.4 เหรียญ หมายถึง สกุลเงินเสมือนจริงซึ่งผู้ใช้สามารถใช้เพื่อชำระเงินสำหรับเนื้อหาและบริการต่างๆ ที่บริษัทฯ เสนอ ซึ่งมีค่าบริการ</string>
+    <string name="AG9">1.5 ข้อกำหนดและเงื่อนไขฯ เพิ่มเติม หมายถึง เอกสารที่บริษัทฯ ออกหรืออัพโหลดซึ่งเกี่ยวกับบริการฯ ภายใต้ชื่อ ข้อตกลง แนวทางปฏิบัติ นโยบาย และอื่นๆ ในทำนองเดียวกัน</string>
+    <string name="AG10">2. การตกลงยอมรับข้อกำหนดและเงื่อนไขฯ</string>
+    <string name="AG11">2.1 ผู้ใช้ทุกรายจะต้องใช้บริการฯ ตามข้อกำหนดที่ระบุไว้ในข้อกำหนดและเงื่อนไขฯ ผู้ใช้จะไม่สามารถใช้บริการฯ ได้เว้นเสียแต่ว่า ผู้ใช้ได้ตกลงยอมรับข้อกำหนดและเงื่อนไขฯ การตกลงยอมรับดังกล่าวมีผลสมบูรณ์และเพิกถอนมิได้</string>
+    <string name="AG12">2.2 ผู้เยาว์สามารถใช้บริการฯ ได้ต่อเมื่อได้รับความยินยอมจากบิดามารดาหรือผู้ปกครองตามกฎหมายเท่านั้น นอกจากนี้ หากผู้ใช้ใช้บริการฯ แทน หรือ เพื่อวัตถุประสงค์ขององค์กรธุรกิจใดๆ จะถือว่า องค์กรธุรกิจดังกล่าวได้ตกลงยอมรับข้อกำหนดและเงื่อนไขฯ นี้ด้วยแล้ว การตกลงยอมรับดังกล่าวมีผลสมบูรณ์และเพิกถอนมิได้</string>
+    <string name="AG13">2.3 การที่ผู้ใช้ใช้บริการฯ ถือว่า ผู้ใช้ได้ตกลงยอมรับข้อกำหนดและเงื่อนไขฯ การตกลงยอมรับดังกล่าวมีผลสมบูรณ์และเพิกถอนมิได้</string>
+    <string name="AG14">2.4 หากมีข้อกำหนดและเงื่อนไขฯ เพิ่มเติมสำหรับบริการฯ ผู้ใช้จะต้องปฏิบัติตามข้อกำหนดและเงื่อนไขฯ เพิ่มเติมนั้นด้วยเช่นเดียวกับข้อกำหนดและเงื่อนไขฯ นี้</string>
+    <string name="AG15">3. การแก้ไขข้อกำหนดและเงื่อนไขฯ</string>
+    <string name="AG16">บริษัทฯ อาจแก้ไขข้อกำหนดและเงื่อนไขฯ หรือ ข้อกำหนดและเงื่อนไขฯ เพิ่มเติม เมื่อบริษัทฯ เห็นว่ามีความจำเป็น โดยไม่ต้องให้คำบอกกล่าวล่วงหน้าแก่ผู้ใช้ การแก้ไขจะมีผลบังคับเมื่อมีการประกาศข้อกำหนดและเงื่อนไขฯ ที่แก้ไข หรือข้อกำหนดและเงื่อนไขฯ เพิ่มเติมที่แก้ไขไว้ในสถานที่ที่เหมาะสมภายในเว็บไซต์ที่บริษัทฯ เป็นผู้ดำเนินงาน การที่ผู้ใช้ใช้บริการฯ ต่อไป ถือว่าผู้ใช้ได้ให้การยอมรับที่มีผลสมบูรณ์และเพิกถอนมิได้ต่อข้อกำหนดและเงื่อนไขฯ ที่แก้ไขแล้ว หรือข้อกำหนดและเงื่อนไขฯ เพิ่มเติมที่แก้ไขแล้ว ผู้ใช้ควรตรวจสอบข้อกำหนดและเงื่อนไขฯ เป็นประจำระหว่างการใช้บริการฯ เนื่องจากอาจไม่มีการแจ้งเตือนแยกต่างหากเกี่ยวกับการแก้ไขข้อกำหนดและเงื่อนไขฯ ดังกล่าว</string>
+    <string name="AG17">4. บัญชี</string>
+    <string name="AG18">4.1 เมื่อผู้ใช้ให้ข้อมูลเกี่ยวกับตนเองแก่บริษัทฯ ผู้ใช้จะต้องให้ข้อมูลที่เป็นจริง ถูกต้องและครบถ้วนในขณะที่ใช้บริการฯ และปรับปรุงข้อมูลดังกล่าวให้เป็นปัจจุบันอยู่ตลอดเวลา</string>
+    <string name="AG19">4.2 หากผู้ใช้ลงทะเบียนรหัสผ่านในขณะที่ใช้บริการฯ ผู้ใช้จะต้องใช้ความระมัดระวังและมีความรับผิดชอบตามสมควรเพื่อไม่ให้มีการใช้รหัสผ่านในลักษณะที่ไม่ชอบด้วยกฎหมาย บริษัทฯ สามารถถือว่ากิจกรรมต่างๆ ที่ดำเนินการโดยใช้รหัสผ่านดังกล่าว เป็นกิจกรรมที่ผู้เป็นเจ้าของรหัสผ่านได้ดำเนินการด้วยตนเอง</string>
+    <string name="AG20">4.3 ผู้ใช้งานที่จดทะเบียนใช้บริการฯ สามารถลบบัญชีของตนและเลิกใช้บริการฯ ได้ ไม่ว่าในเวลาใดๆ ก็ตาม</string>
+    <string name="AG21">4.4 บริษัทฯ อาจระงับหรือลบบัญชีของผู้ใช้ได้โดยไม่ต้องให้คำบอกกล่าวล่วงหน้าแก่ผู้ใช้ หากบริษัทฯ เห็นว่าผู้ใช้กำลังละเมิดหรือได้ละเมิดข้อกำหนดและเงื่อนไขฯ </string>
+    <string name="AG22">4.5 บริษัทฯ สงวนสิทธิที่จะลบบัญชีใดๆ ที่ไม่มีการเปิดใช้งานเป็นเวลา 1 ปีหรือนานกว่านั้นนับตั้งแต่วันที่มีการเปิดใช้งานบัญชีดังกล่าวครั้งล่าสุด โดยไม่ต้องให้คำบอกกล่าวล่วงหน้าใดๆ แก่ผู้ใช้</string>
+    <string name="AG23">4.6 สิทธิที่จะใช้บริการของผู้ใช้จะสิ้นสุดลงเมื่อมีการลบบัญชีของผู้ใช้ไม่ว่าด้วยเหตุผลใดๆ ก็ตาม บัญชีจะไม่สามารถกู้คืนมาได้แม้ว่าผู้ใช้จะลบบัญชีของตนโดยไม่ได้ตั้งใจก็ตาม และบริษัทฯ ขอให้ผู้ใช้ตระหนักถึงเรื่องนี้ด้วย</string>
+    <string name="AG24">4.7 บัญชีแต่ละบัญชีในบริการฯ มีไว้เพื่อการใช้งานเฉพาะและเป็นของเจ้าของบัญชีแต่เพียงผู้เดียวเท่านั้น ผู้ใช้ไม่สามารถโอนหรือให้ยืมบัญชีของตนแก่บุคคลภายนอกใดๆ และบุคคลภายนอกใดๆ ไม่สามารถรับช่วงบัญชีจากผู้ใช้ได้</string>
+    <string name="AG25">5. การคุ้มครองข้อมูลส่วนบุคคล</string>
+    <string name="AG26">5.1 บริษัทฯ ให้ความสำคัญแก่ความเป็นส่วนตัวของผู้ใช้ของบริษัทฯ เป็นลำดับแรก</string>
+    <string name="AG27">5.2 บริษัทฯ สัญญาว่าจะคุ้มครองความเป็นส่วนตัวและข้อมูลส่วนบุคคลของผู้ใช้ของบริษัทฯ ตาม นโยบายของไลน์ว่าด้วยการคุ้มครองข้อมูลส่วนบุคคล </string>
+    <string name="AG28">5.3 บริษัทฯ สัญญาที่จะใช้ความระมัดระวังและความใส่ใจอย่างสูงสุดเกี่ยวกับมาตรการรักษาความปลอดภัยของบริษัทฯ เพื่อให้มีการรักษาความปลอดภัยของข้อมูลใดๆ ของผู้ใช้ ทั้งหมด</string>
+    <string name="AG29">ย้อนกลับ</string>
+    ////HIGHLIGHT2////
+    <string name="HL1">สถานที่ยอดนิยม</string>
+    <string name="HL2">ค้นหาเพิ่มเติม > </string>
+    ////NEWS////
+    <string name="NS1">ข่าวสำคัญ</string>
+    <string name="NS2">ค้นหาเพิ่มเติม > </string>
+    ////DIARY////
+    <string name="DR1">วันนี้</string>
+    <string name="DR2">3 วันที่แล้ว</string>
+    ////FOOD(MAIN+TRAVEL)////
+    <string name="FO1">ร้านอาหาร</string>
+    <string name="FO2">ค้นหาเพิ่มเติม > </string>
+    ////ATTRACT(MAIN)////
+    <string name="AT1">สถานที่ท่องเที่ยว</string>
+    <string name="AT2">ค้นหาเพิ่มเติม > </string>
+    ////HOTEL////
+    <string name="HT1">สถานที่พัก</string>
+    <string name="HT2">ค้นหาเพิ่มเติม > </string>
+    ////MARKET////
+    <string name="MK1">ร้านค้า</string>
+    <string name="MK2">ค้นหาเพิ่มเติม > </string>
+    ////PRAY/////
+    <string name="PR1">สถานที่ละหมาด</string>
+    <string name="PR2">ค้นหาเพิ่มเติม > </string>
+    ////VERSION////
+    <string name="VS1">เวอร์ชั่น : 1.0.3</string>
+    <string name="VS2">สนับสนุนโดย: ศูนย์บริการวิชาการ มหาวิทยาลัยสงขลานครินทร์</string>
+
+
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="google_maps_API">AIzaSyD4B1StKeCRf9rta5dttAeKPshaSVyx8VQ</string>
+
+    <string name="recent_news">VISITPATTANI</string>
+    <string name="recent_news2">ข่าวสำคัญ</string>
+    <string name="recent_newsHL">สถานที่ยอดนิยม</string>
+    <string name="in_news">ข่าวสารเเละข้อมูลดังต่อไปนี้ จะถูกจำกัดขอบเขตภายในจังหวัดปัตตานนีเท่านั้น</string>
+    <string name="publish_date">2018-10-29 15:00:00</string>
+
+    <string name="TitlebtnHelp">ยินดีต้อนรับเข้าสู่ VisitPattaniApp</string>
+    <string name="TitlebtnHelp2">เรียนท่านผู้ใช้ขอความกรุณากรอกข้อมูล เพื่อ...</string>
+    <string-array name="Vehicle">
+        <item>ขับรถยนต์</item>
+        <item>รถขนส่งสาธารณะ</item>
+        <item>เดินเท้า</item>
+        <item>ปั่นจักรยาน</item>
+        <item>เที่ยวบิน</item>
+        <item>กรุ๊ปทัวร์</item>
+        <item>อื่นๆ</item>
+    </string-array>
+
+    <string-array name="Nation">
+        <item>ไทย</item>
+        <item>อินโดนีเซีย</item>
+        <item>กัมพูชา</item>
+        <item>เวียดนาม</item>
+        <item>ลาว</item>
+        <item>จีน</item>
+        <item>สหรัฐอเมริกา</item>
+        <item>ออสเตรเลีย</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string name="title_activity_help_details">HelpDetails</string>
+    <string name="title_activity_tab_help">TabHelpActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_prays_web_view">PraysWebView</string>
+</resources>

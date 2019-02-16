@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/bginbg"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgboat5"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        android:layout_below="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textTitleLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/mitr_extralight"
+                android:text="@string/LG1"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textTitleLogin"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:id="@+id/imgView_userIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorBlueJean"
+                    android:padding="8dp"
+                    android:src="@drawable/img_email"
+                    android:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imgView_userIcon"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imgView_userIcon"
+                    android:background="@color/editTextBG"
+                    android:hint="@string/LG2"
+
+                    android:fontFamily="@font/mitr_extralight"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="20dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:id="@+id/imgView_passwordIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorBlueJean"
+                    android:padding="8dp"
+                    android:src="@drawable/img_authentication"
+                    android:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imgView_passwordIcon"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imgView_passwordIcon"
+                    android:background="@color/editTextBG"
+                    android:hint="@string/LG3"
+
+                    android:fontFamily="@font/mitr_extralight"
+                    android:inputType="textPassword"
+                    android:paddingLeft="20dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif">
+
+                <TextView
+                    android:id="@+id/textViewSignup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonSignin"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/transparent"
+                    android:fontFamily="@font/mitr_extralight"
+                    android:text="@string/LG4"
+                    android:textAllCaps="false"
+                    android:textColor="@color/textColor"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textViewForget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/LG5"
+                    android:textSize="18dp"
+                    android:fontFamily="@font/mitr_extralight"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonSignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout3"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorBlueJean"
+                android:fontFamily="@font/mitr_extralight"
+                android:text="@string/LG6"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textViewGoMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonSignin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/transparent"
+                android:fontFamily="@font/mitr_extralight"
+                android:text="@string/LG7"
+                android:textAllCaps="false"
+                android:textColor="@color/textColor"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

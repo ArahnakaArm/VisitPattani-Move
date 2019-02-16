@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arahnaka.myapplication.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:elevation="0dp"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:background="@color/White">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <TextView
+                    android:id="@+id/poiter"
+                    android:layout_marginTop="10dp"
+                    android:paddingStart="15dp"
+                    android:drawableLeft="@drawable/ic_maps_and_flags"
+                    android:drawablePadding="6dp"
+                    android:textSize="17sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/mitr_semibold"
+                    android:text="@string/DR1"
+                    android:textColor="@color/darkgrey" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewTab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+            </android.support.v7.widget.RecyclerView>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:weightSum="1" >
+                <TextView
+                    android:id="@+id/poiter2"
+                    android:paddingStart="15dp"
+                    android:drawableLeft="@drawable/ic_maps_and_flags"
+                    android:drawablePadding="6dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/mitr_semibold"
+                    android:text="@string/DR2"
+                    android:textColor="@color/darkgrey" />
+            </LinearLayout>
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewTab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+            </android.support.v7.widget.RecyclerView>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:weightSum="1"
+                android:background="@color/white">
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <!--  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+
+                  android:layout_height="fill_parent"
+                  android:orientation="horizontal"
+                  android:background="@color/white"
+                  android:weightSum="1" >
+                  <TextView
+                      android:id="@+id/poiter4"
+                      android:layout_width="fill_parent"
+                      android:paddingStart="15dp"
+                      android:layout_height="wrap_content"
+                      android:fontFamily="monospace"
+                      android:drawablePadding="6dp"
+                      android:drawableLeft="@drawable/ic_menu"
+                      android:layout_weight="0.5"
+                      android:layout_marginStart="5dp"
+                      android:textSize="17sp"
+                      android:text="ETC."
+                      android:textColor="@color/Dark"/>
+
+
+                  <TextView
+                      android:id="@+id/plus4"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_weight="0.5"
+                      android:fontFamily="monospace"
+                      android:layout_marginStart="130dp"
+                      android:textSize="17sp"
+                      android:textColor="@color/Dark"
+                      android:text="+More"
+                      />
+
+            </LinearLayout>-->
+
+
+
+
+
+        </android.support.design.widget.AppBarLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/buttom_navi"/>
+
+
+
+
+</RelativeLayout>

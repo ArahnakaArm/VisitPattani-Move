@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="8dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mitr_extralight"
+                android:text="@string/AT1"
+                />
+
+
+        </RelativeLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_marginTop="15dp"
+            android:layout_height="match_parent"
+            android:id="@+id/recycler_viewtab1">
+
+        </android.support.v7.widget.RecyclerView>
+        <include layout="@layout/buttom_navi"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

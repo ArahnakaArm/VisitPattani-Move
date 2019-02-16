@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetActivity"
+    android:background="@drawable/bginbg">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/white_grey_border_buttom"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageViewForget"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgboat5"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        android:layout_below="@+id/imageViewForget"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewForget">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textTitleForget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/FG1"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mitr_extralight"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textTitleForget"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/transparent"
+                android:text="@string/FG2"
+                android:textAllCaps="false"
+                android:textColor="@color/textColor"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/mitr_extralight"/>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:id="@+id/imgView_userIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/colorBlueJean"
+                    android:padding="8dp"
+                    android:src="@drawable/img_email"
+                    android:tint="@color/white" />
+
+                <EditText
+                    android:id="@+id/editTextForEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imgView_userIcon"
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/imgView_userIcon"
+                    android:background="@color/editTextBG"
+                    android:hint="@string/FG3"
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="20dp"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/mitr_extralight"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/buttonForget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relativeLayout1"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/colorBlueJean"
+                android:text="@string/FG4"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/mitr_extralight"/>
+
+            <TextView
+                android:id="@+id/textViewBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/buttonForget"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/transparent"
+                android:text="@string/FG5"
+                android:textAllCaps="false"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                android:fontFamily="@font/mitr_extralight"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

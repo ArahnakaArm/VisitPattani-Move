@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arahnaka.myapplication.MainActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="0dp"
+    android:layout_marginTop="55dp"
+    android:layout_marginBottom="50dp">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:elevation="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@color/White">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+
+            <TextView
+                android:id="@+id/poiter"
+                android:paddingStart="15dp"
+                android:drawableLeft="@drawable/ic_maps_and_flags"
+                android:drawablePadding="6dp"
+                android:textSize="17sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/mitr_semibold"
+                android:text="@string/MA1"
+                android:textColor="@color/darkgrey" />
+
+
+            <TextView
+                android:id="@+id/plus1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="@font/mitr_semibold"
+                android:text="@string/MA2"
+                android:layout_marginLeft="95dp"
+                android:textColor="@color/colorBlueJean"
+                android:textSize="17sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="5dp"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:elevation="0dp"
+            android:orientation="horizontal">
+
+        </android.support.v7.widget.RecyclerView>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+            <TextView
+                android:id="@+id/poiter2"
+                android:paddingStart="15dp"
+                android:drawableLeft="@drawable/ic_church"
+                android:drawablePadding="6dp"
+                android:textSize="17sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/mitr_semibold"
+                android:text="@string/MA3"
+                android:textColor="@color/darkgrey" />
+
+
+            <TextView
+                android:id="@+id/plus2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/mitr_semibold"
+                android:layout_marginLeft="95dp"
+                android:textSize="17sp"
+                android:textColor="@color/colorBlueJean"
+                android:text="@string/MA4"
+                android:textStyle="italic"
+                />
+        </LinearLayout>
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="5dp"
+            android:id="@+id/recyclerView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:elevation="0dp">
+
+        </android.support.v7.widget.RecyclerView>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:weightSum="1" >
+            <TextView
+                android:id="@+id/poiter3"
+                android:drawableLeft="@drawable/ic_restaurant"
+                android:paddingStart="15dp"
+                android:layout_width="fill_parent"
+                android:drawablePadding="6dp"
+                android:textSize="17sp"
+                android:fontFamily="@font/mitr_semibold"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:layout_marginStart="5dp"
+                android:text="@string/MA5"
+                android:textColor="@color/darkgrey"/>
+
+
+            <TextView
+                android:id="@+id/plus3"
+                android:textSize="17sp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/mitr_semibold"
+                android:layout_weight="0.5"
+                android:layout_marginStart="95dp"
+                android:textColor="@color/colorBlueJean"
+                android:text="@string/MA6"
+                android:textStyle="italic"
+                />
+        </LinearLayout>
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="5dp"
+            android:id="@+id/recyclerView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/background_light"
+            android:orientation="horizontal"
+            android:elevation="0dp">
+
+        </android.support.v7.widget.RecyclerView>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+
+            android:weightSum="1" >
+            <!--<TextView
+                android:id="@+id/poiter4"
+                android:layout_width="fill_parent"
+                android:paddingStart="15dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:drawablePadding="6dp"
+                android:drawableLeft="@drawable/ic_menu"
+                android:layout_weight="0.5"
+                android:layout_marginStart="5dp"
+                android:textSize="17sp"
+                android:text="ETC."
+                android:textColor="@color/Dark"/>
+
+
+            <TextView
+                android:id="@+id/plus4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:fontFamily="monospace"
+                android:layout_marginStart="130dp"
+                android:textSize="17sp"
+                android:textColor="@color/Dark"
+                android:text="+More"
+                />
+                -->
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+</ScrollView>
+
+    <include layout="@layout/buttom_navi"/>
+
+</RelativeLayout>

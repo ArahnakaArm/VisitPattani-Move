@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+
+
+    >
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="1dp"
+        app:cardMaxElevation="0dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_view2"
+                android:layout_width="135dp"
+                android:layout_height="120dp"
+                android:background="@android:color/transparent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text="Cannada"
+
+                android:id="@+id/name2"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/mitr_semibold"
+                android:layout_below="@+id/image_view2"
+                android:textStyle="bold"
+
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:layout_marginBottom="0dp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMinTextSize="8sp"
+                android:autoSizeMaxTextSize="15sp"
+
+
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

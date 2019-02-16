@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    ///////English////////
+    ////CHOOSEN////
+    <string name = "CH1">Welcome</string>
+    <string name = "CH2">VisitPattani</string>
+    <string name = "CH3">Every trip in your hands</string>
+    <string name = "CH4">Language</string>
+    <string name = "CH5">Thai</string>
+    <string name = "CH6">English</string>
+    <string name = "CH7">Malay</string>
+    <string name = "CH8">Let\'s Go</string>
+    //// LOGIN ////
+    <string name = "LG1">Log in</string>
+    <string name = "LG2">Email</string>
+    <string name = "LG3">password</string>
+    <string name = "LG4">Register</string>
+    <string name = "LG5">Forgot password?</string>
+    <string name = "LG6">Log in</string>
+    <string name = "LG7">Not now</string>
+    //// RESGISTER ////
+    <string name = "RG1">Register</string>
+    <string name = "RG2">Email</string>
+    <string name = "RG3">password</string>
+    <string name = "RG4">Second Password</string>
+    <string name = "RG5">I accept</string>
+    <string name = "RG6">Terms and Conditions of Use</string>
+    <string name = "RG7">Register</string>
+    <string name = "RG8">Log in</string>
+    ////FORGET/////
+    <string name = "FG1">Reset password</string>
+    <string name = "FG2">Please enter your email</string>
+    <string name = "FG3">Email</string>
+    <string name = "FG4">confirm</string>
+    <string name = "FG5">Log in</string>
+    //// PROFILE ////
+    <string name = "PF1">Please enter additional information.</string>
+    <string name = "PF2">Fullname</string>
+    <string name = "PF3">Gender</string>
+    <string name = "PF4">Male</string>
+    <string name = "PF5">Female</string>
+    <string name = "PF6">Age</string>
+    <string name = "PF7">Nationality</string>
+    <string name = "PF8">Address</string>
+    <string name = "PF9">Accommodation</string>
+    <string name = "PF10">Travel budget</string>
+    <string name = "PF11">baht</string>
+    <string name = "PF12">Travel time</string>
+    <string name = "PF13">day</string>
+    <string name = "PF14">Travel vehicles</string>
+    <string name = "PF15">Save data</string>
+    ////MAIN////
+    <string name = "MA1">Attractions</string>
+    <string name = "MA2">Find More ></string>
+    <string name = "MA3">Themes </string>
+    <string name = "MA4">Find More ></string>
+    <string name = "MA5">Restaurant </string>
+    <string name = "MA6">Find More ></string>
+    //// TRAVEL ////
+    <string name = "TV1">Highlights</string>
+    <string name = "TV2">News</string>
+    <string name = "TV3">Themes</string>
+    <string name = "TV4">Planning</string>
+    <string name = "TV5">Diary</string>
+    <string name = "TV6">Restaurant</string>
+    <string name = "TV7">Hotel</string>
+    <string name = "TV8">Shop</string>
+    <string name = "TV9">Prayer</string>
+    <string name = "TV10">Currency</string>
+    <string name = "TV11">Help</string>
+    <string name = "TV12">About</string>
+    ///// CHECKIN (MAP) /////
+    <string name = "CI1">Find locations</string>
+    <string name = "CI2">CheckIn</string>
+    ///// MAP2 /////
+    <string name = "MP1">Find locations</string>
+    <string name = "MP2">Current</string>
+    <string name = "MP3">Nearby</string>
+    <string name = "MP4">Guide</string>
+    <string name = "MP5">Clear</string>
+    <string name = "MP6">Menu</string>
+    <string name = "MP7">Temple</string>
+    <string name = "MP8">Beach</string>
+    <string name = "MP9">Park</string>
+    <string name = "MP10">Museum</string>
+    <string name = "MP11">Restaurant</string>
+    <string name = "MP12">Shop</string>
+    <string name = "MP13">Gas</string>
+    ///// BOTTOM NAVI ////
+    <string name = "BN1">Main</string>
+    <string name = "BN2">Travel</string>
+    <string name = "BN3">Check-in</string>
+    <string name = "BN4">Maps</string>
+    ////SETTING////
+    <string name = "ST1">Language</string>
+    <string name = "ST2">History Pattani Province</string>
+    <string name = "ST3">Terms and conditions of use</string>
+    <string name = "ST4">About us</string>
+    <string name = "ST5">Log out</string>
+    ////AGREE 1 - 2////
+    <string name = "AG1">Terms and conditions of use VisitPattani</string>
+    <string name = "AG2">To protect your rights, please read all the terms of service and agree to comply with all of the following terms and conditions of member services</string>
+    <string name = "AG3">1. Definition</string>
+    <string name = "AG4">The following words and phrases have the meanings as defined below when used in terms and conditions</string>
+    <string name = "AG5">1.1 Content means information such as text, audio files, music, images, videos, software, programs, computer codes and other similar things.</string>
+    <string name = "AG6">1.2 The content means content that can be accessed via the service.</string>
+    <string name = "AG7">1.3 Content from users means content that users send, send or upload.</string>
+    <string name = "AG8">1.4 Coins means the virtual currency that users can use to pay for the content and services that the company offers, which is charged</string>
+    <string name = "AG9">1.5 Additional terms and conditions refer to documents that the company Issued or uploaded in relation to the Services under the name, agreement, guidelines, policies, and so on.</string>
+    <string name = "AG10">2. Agreeing to the terms and conditions</string>
+    <string name = "AG11">2.1 All users must use the service. According to the terms specified in the terms and conditions Users will not be able to use the service. Unless unless The user agrees to accept the terms and conditions. The agreement is valid and irrevocable.</string>
+    <string name = "AG12">2.2 Minors can use the service Can only be obtained with the consent of a parent or legal guardian. In addition, if the user uses the service instead or for the purposes of any business organization, it shall be deemed that such business organization has agreed to these terms and conditions. Agree to accept that it is complete and irrevocable</string>
+    <string name = "AG13">2.3 By using the service, the user agrees to accept the terms and conditions. The agreement is valid and irrevocable.</string>
+    <string name = "AG14">2.4 If there are terms and conditions For additional services Users must comply with the terms and conditions. As well as this terms and conditions</string>
+    <string name = "AG15">3. Amendments to terms and conditions</string>
+    <string name = "AG16">Company May amend the terms and conditions or additional terms and conditions when the company considers it necessary Without giving advance notice to the user The amendment will take effect when the revised terms and conditions are announced or the terms and conditions. Additional amendments are made in the appropriate place within the website that the company Is the operator The users continue to use the service, and the users agree that the acceptance, validity and revocation of the revised terms and conditions or the terms and conditions are not accepted. More modified Users should check the terms and conditions. Regularly during the use of the service Because there may be no separate notification regarding the amendments to the terms and conditions Such</string>
+    <string name = "AG17">4. Account</string>
+    <string name = "AG18">4.1 When users provide information about themselves to the company Users must provide true information. Correct and complete while using the service And update the information to the present.</string>
+    <string name = "AG19">4.2 If the user registers the password while using the service Users must use caution and have reasonable responsibility to prevent unlawful use of passwords. The company can assume various activities. That is operated using such a password Is an activity that the password owner has to do manually.</string>
+    <string name = "AG20">4.3 Users registered to use the service Can delete their accounts and stop using the service at any time Whatever</string>
+    <string name = "AG21">4.4 The Company may suspend or delete a User's account without giving advance notice to the User if the Company considers that the User is in violation or violates the Terms and Conditions</string>
+    <string name = "AG22">4.5 The company reserves the right to delete any accounts. That has not been activated for 1 year or longer since the date of the latest account activation Without giving any prior notice To users</string>
+    <string name = "AG23">4.6 The right to use the service of the user will terminate when the user account is deleted, for whatever reason, the account will not be able to recover even if the user has accidentally deleted his account Ask users to be aware of this too.</string>
+    <string name = "AG24">4.7 Each account in the service Is intended for specific use and belongs to the sole owner of the account Users cannot transfer or lend their accounts to any third parties. And any third party Unable to inherit account from user</string>
+    <string name = "AG25">5. Privacy protection</string>
+    <string name = "AG26">5.1 The company gives importance to the privacy of the users of the company. In the first order</string>
+    <string name = "AG27">5.2 The company promises to protect the privacy and personal information of the users of the company according to the line policy on privacy protection.</string>
+    <string name = "AG28">5.3 The company promises to take the utmost care and attention to the security measures of the company. To ensure the security of any information of all users</string>
+    <string name = "AG29">Back</string>
+    //// HIGHLIGHT2 ////
+    <string name = "HL1">Popular locations</string>
+    <string name = "HL2">Find More ></string>
+    //// NEWS ////
+    <string name = "NS1">Important news</string>
+    <string name = "NS2">Find More ></string>
+    //// DIARY ////
+    <string name = "DR1">Today</string>
+    <string name = "DR2">3 days ago</string>
+    //// FOOD (MAIN + TRAVEL) ////
+    <string name = "FO1">Restaurant</string>
+    <string name = "FO2">Find More ></string>
+    //// ATTRACT (MAIN) ////
+    <string name = "AT1">Attractions</string>
+    <string name = "AT2">Find More ></string>
+    //// HOTEL ////
+    <string name = "HT1">Hotel</string>
+    <string name = "HT2">Find More ></string>
+    //// MARKET ////
+    <string name = "MK1">Shop</string>
+    <string name = "MK2">Find More ></string>
+    //// PRAY /////
+    <string name = "PR1">Prayer</string>
+    <string name = "PR2">Find More ></string>
+    ////VERSION////
+    <string name = "VS1">Version: 1.0.3</string>
+    <string name = "VS2">Supported by : Academic Service Center Prince of Songkla University</string>
+
+
+
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="google_maps_API">AIzaSyD4B1StKeCRf9rta5dttAeKPshaSVyx8VQ</string>
+
+    <string name="recent_news">VISITPATTANI</string>
+    <string name="recent_news2">ข่าวสำคัญ</string>
+    <string name="recent_newsHL">สถานที่ยอดนิยม</string>
+    <string name="in_news">ข่าวสารเเละข้อมูลดังต่อไปนี้ จะถูกจำกัดขอบเขตภายในจังหวัดปัตตานนีเท่านั้น</string>
+    <string name="publish_date">2018-10-29 15:00:00</string>
+
+    <string name="TitlebtnHelp">ยินดีต้อนรับเข้าสู่ VisitPattaniApp</string>
+    <string name="TitlebtnHelp2">เรียนท่านผู้ใช้ขอความกรุณากรอกข้อมูล เพื่อ...</string>
+
+
+
+    ////SPIN PROFILE/////
+    <string-array name = "Vehicle">
+         <item>Drive the car</item>
+         <item>Public transport</item>
+         <item>Walk</item>
+         <item>Cycling</item>
+         <item>Flights</item>
+         <item>Tour group</item>
+         <item>Other</item>
+         </string-array>
+    <string-array name = "Nation">
+         <item>Thai</item>
+         <item>Indonesia</item>
+         <item>Cambodia</item>
+         <item>Vietnam</item>
+         <item>Lao</item>
+         <item>Chinese</item>
+         <item>United States</item>
+         <item>Australia</item>
+         <item>Other</item>
+    </string-array>
+
+
+    <string name="title_activity_help_details">HelpDetails</string>
+    <string name="title_activity_tab_help">TabHelpActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_prays_web_view">PraysWebView</string>
+</resources>

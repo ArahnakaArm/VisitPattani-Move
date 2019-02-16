@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00695c</color>
+    <color name="colorAccent">#b2dfdb</color>
+    <color name="Dark">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="colorGrapeFruit">#ED5565</color>
+    <color name="colorGrapeFruitDark">#DA4453</color>
+    <color name="colorBitterSweet">#fc8b73</color>
+    <color name="colorBitterSweetDark">#E9573F</color>
+    <color name="colorFlower">#ffd265</color>
+    <color name="colorFlowerDark">#ECB113</color>
+    <color name="colorGrass">#A0D468</color>
+    <color name="colorGrassDark">#8CC152</color>
+    <color name="colorBlueJean">#509CEC</color>
+    <color name="colorBlueJeanDark">#4A89DC</color>
+    <color name="colorLavender">#AC92EC</color>
+    <color name="colorLavenderDark">#967ADC</color>
+    <color name="colorMint">#48CFAD</color>
+    <color name="colorMintDark">#37BC9B</color>
+    <color name="colorAqua">#4FC1E9</color>
+    <color name="colorAquaDark">#3BAFDA</color>
+    <color name="colorPinkRose">#EC87C0</color>
+    <color name="colorPinkRoseDark">#D770AD</color>
+    <color name="defaultcolor">#fff3f3f3</color>
+    <color name="tran">#80000000</color>
+    <color name="grey">#c3c3c3</color>
+    <color name="ligrey">#D3D3D3</color>
+    <color name="transparent">#00000000</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textColor">#6e6e6e</color>
+    <color name="tranculen">#00FFFFFF</color>
+    <color name="darkgrey">#696969</color>
+    <color name="mapgrey">#f2f2f2</color>
+    <color name="Background">#EEEDEF</color>
+    <color name="Pink">#FF4081</color>
+    <color name="ColorPrimaryText">#050505</color>
+
+
+</resources>
