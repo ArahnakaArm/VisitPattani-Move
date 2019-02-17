@@ -60,6 +60,7 @@ public class TabPlan1 extends Fragment{
     String distanceRecord="";
     boolean stylecheck=false;
     TextView data;
+    ImageView iconn;
     TextView data2;
     TextView data3;
     String testt = "asdasd°";
@@ -83,7 +84,7 @@ public class TabPlan1 extends Fragment{
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.spinerlay, container, false);
         // radioGroup = rootView.findViewById(R.id.radioGroup);
-
+        iconn = (ImageView)rootView.findViewById(R.id.pointicon);
 
         /// Spinner 1
         sp = (Spinner)rootView.findViewById(R.id.spinner);
@@ -184,6 +185,7 @@ public class TabPlan1 extends Fragment{
                         styleRecord="pop";
                         Li.setVisibility(View.INVISIBLE);
                         downview.setVisibility(View.INVISIBLE);
+                        iconn.setVisibility(View.INVISIBLE);
                         distanceRecord="";
                         stylecheck=false;
                         break;
@@ -191,10 +193,12 @@ public class TabPlan1 extends Fragment{
                         styleRecord="distance";
                         Li.setVisibility(View.VISIBLE);
                         downview.setVisibility(View.VISIBLE);
+                        iconn.setVisibility(View.VISIBLE);
                         stylecheck=true;
                         break;
                     case 3:
                         styleRecord="cheap";
+                        iconn.setVisibility(View.INVISIBLE);
                         Li.setVisibility(View.INVISIBLE);
                         downview.setVisibility(View.INVISIBLE);
                         stylecheck=false;

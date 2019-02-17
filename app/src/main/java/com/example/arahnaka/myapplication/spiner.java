@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
@@ -41,6 +42,7 @@ public class spiner extends AppCompatActivity {
     TextView data;
     TextView data2;
     TextView data3;
+    ImageView iconn;
     RadioGroup radioGroup;
     RadioButton radioButton;
     int timeState = 0;
@@ -56,7 +58,7 @@ public class spiner extends AppCompatActivity {
         setContentView(R.layout.spinerlay);
         //radioGroup = findViewById(R.id.radiog);
 
-
+        iconn = (ImageView)findViewById(R.id.pointicon);
         /// Spinner 1
         sp = (Spinner)findViewById(R.id.spinner);
         List<String> timelist=new ArrayList<>(Arrays.asList(time));
