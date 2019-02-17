@@ -193,4 +193,12 @@
     <string name="title_activity_tab_help">TabHelpActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_prays_web_view">PraysWebView</string>
+    ////EXCHARGE////
+    <string name="ER1">อัตราแลกเปลี่ยนเงินตรา</string>
+    <string name="ER2">อัตราแลกเปลี่ยนยอดนิยม</string>
+    <string name="ER3">ค้นหาเพิ่มเติม ></string>
+    <string name="ER4">อัตราแลกเปลี่ยนเงินตราต่างประเทศ</string>
+    ////SECOND////
+    <string name="SC1">อัตราแลกเปลี่ยนเงินตรา</string>
+    <string name="SC2">คํานวณ</string>
 </resources>

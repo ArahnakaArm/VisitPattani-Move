@@ -194,6 +194,14 @@
          <item>Other</item>
     </string-array>
 
+    ////EXCHARGE////
+    <string name="ER1">ExchargeRate</string>
+    <string name="ER2">Top 10 Excharge Rate</string>
+    <string name="ER3">Find More ></string>
+    <string name="ER4">Foreign Exchange Rates</string>
+    ////SECOND////
+    <string name="SC1">ExchargeRate</string>
+    <string name="SC2">Calculate</string>
 
     <string name="title_activity_help_details">HelpDetails</string>
     <string name="title_activity_tab_help">TabHelpActivity</string>

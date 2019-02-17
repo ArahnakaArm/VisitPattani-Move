@@ -84,7 +84,7 @@ public class ActivityTravel extends AppCompatActivity implements android.locatio
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travel);
 
-
+        LinearLayout btn10 = (LinearLayout)findViewById(R.id.but_exchange);
         ;
        // String myvalue = Start.getMyString();
 
@@ -175,11 +175,10 @@ public class ActivityTravel extends AppCompatActivity implements android.locatio
                 v.getContext().startActivity(goHi);
             }
         });
-        LinearLayout btn10 = (LinearLayout)findViewById(R.id.but_exchange);
         btn10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent goHi = new Intent(Intent.ACTION_VIEW,Uri.parse("https://www.xe.com/currency/thb-thai-baht?"));
+                Intent goHi = new Intent(v.getContext(),CurrencyActivity.class);
                 v.getContext().startActivity(goHi);
             }
         });

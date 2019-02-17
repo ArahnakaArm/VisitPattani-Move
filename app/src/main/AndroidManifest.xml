@@ -116,7 +116,10 @@
         <activity android:name=".PlanningList" />
         <activity android:name=".PlanningGallery" />
         <activity android:name=".pageRegister" />
-        <activity android:name=".MainActivity" />
+
+        <activity android:name=".Currency2Activity" />
+        <activity android:name=".CurrencyActivity" android:parentActivityName=".ActivityTravel"/>
+        <activity android:name=".SecondActivity" android:parentActivityName=".CurrencyActivity" />
 
     </application>
 

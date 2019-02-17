@@ -198,4 +198,12 @@
     <string name="title_activity_tab_help">TabHelpActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_prays_web_view">PraysWebView</string>
+    ////EXCHARGE////
+    <string name="ER1">ExchargeRate</string>
+    <string name="ER2">Kadar Bayaran Teratas 10</string>
+    <string name="ER3">Cari lebih ></string>
+    <string name="ER4">Kadar tukaran asing</string>
+    ////SECOND////
+    <string name="SC1">ExchargeRate</string>
+    <string name="SC2">Calculator</string>
 </resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="5dp"
+    app:cardMaxElevation="3dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="#E6E6FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="16dp"
+        android:layout_margin="3dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CUR :"
+            android:textSize="22dp"
+            android:textColor="#191970"
+            android:fontFamily="@font/mitr_extralight"
+            android:textStyle="bold"
+            android:id="@+id/tvName"/>
+        <TextView
+            android:id="@+id/tvRate"
+            android:text="1.0000"
+            android:textSize="22dp"
+            android:textColor="#191970"
+            android:fontFamily="@font/mitr_extralight"
+            android:textStyle="bold"
+
+            android:gravity="right"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
