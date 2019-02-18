@@ -62,7 +62,7 @@
         <activity android:name=".ForgetActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".AgreeActivity" />
-        <activity android:name=".Start" />
+        <activity android:name=".ActivityTravel" />
         <activity android:name=".MapActivity"/>
         <activity android:name=".ActivityPlan2" />
         <activity android:name=".Map2Activity" />
@@ -72,7 +72,7 @@
         <activity android:name=".Agree2Activity" />
         <activity android:name=".VersionActivity" />
         <activity android:name=".HelpActivity" />
-        <activity android:name=".ActivityTravel"
+        <activity android:name=".Start"
             android:icon="@drawable/icon_app"
             android:label="VisitPattani">
         <intent-filter>
