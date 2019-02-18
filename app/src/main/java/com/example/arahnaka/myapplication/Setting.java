@@ -109,6 +109,10 @@ public class Setting extends AppCompatActivity implements View.OnClickListener ,
         textTitle5.setOnClickListener(this);
         Card5 = (CardView)findViewById(R.id.Card5);
         Card5.setOnClickListener(this);
+        if(StatusCheck.getStatus()==false){
+            Card5.setVisibility(View.INVISIBLE);
+            textTitle5.setVisibility(View.INVISIBLE);
+        }
 
 
     }

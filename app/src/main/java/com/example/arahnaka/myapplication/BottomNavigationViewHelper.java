@@ -36,19 +36,19 @@ public class BottomNavigationViewHelper {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.action_home:
-                        Intent intent1 = new Intent(context,MainActivity.class);
+                        Intent intent1 = new Intent(context,MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         context.startActivity(intent1);
                         break;
                     case R.id.travelinfo:
-                        Intent intent2 = new Intent(context,ActivityTravel.class);
+                        Intent intent2 = new Intent(context,ActivityTravel.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         context.startActivity(intent2);
                         break;
                     case R.id.checkinnavi:
-                        Intent intent3 = new Intent(context,MapActivity.class);
+                        Intent intent3 = new Intent(context,MapActivity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         context.startActivity(intent3);
                         break;
                     case R.id.map:
-                        Intent intent4 = new Intent(context,Map2Activity.class);
+                        Intent intent4 = new Intent(context,Map2Activity.class).addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         context.startActivity(intent4);
                         break;
                 }

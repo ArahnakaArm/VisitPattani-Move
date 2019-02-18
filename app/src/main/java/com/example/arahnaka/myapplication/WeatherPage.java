@@ -112,7 +112,7 @@ public class WeatherPage extends AppCompatActivity implements LocationListener {
 
 
         }
-        locationManager.requestLocationUpdates(provider, 400, 1, this);
+        locationManager.requestLocationUpdates(provider, 2000, 20, this);
     }
 
     @Override

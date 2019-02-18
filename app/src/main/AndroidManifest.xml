@@ -63,7 +63,7 @@
         <activity android:name=".ProfileActivity" />
         <activity android:name=".AgreeActivity" />
         <activity android:name=".Start" />
-        <activity android:name=".MapActivity" />
+        <activity android:name=".MapActivity"/>
         <activity android:name=".ActivityPlan2" />
         <activity android:name=".Map2Activity" />
         <activity android:name=".ChooseActivity" />
