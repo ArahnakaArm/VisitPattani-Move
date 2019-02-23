@@ -301,7 +301,7 @@ public class ActivityTravel extends AppCompatActivity implements android.locatio
 
 
         }
-        locationManager.requestLocationUpdates(provider, 400, 1, this);
+        locationManager.requestLocationUpdates(provider, 600000, 1, this);
     }
 
     @Override
