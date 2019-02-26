@@ -13,6 +13,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -35,19 +36,20 @@ import java.text.DateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * Created by arahnaka on 6/18/2018.
  */
 
-public class Start extends AppCompatActivity implements LocationListener, GoogleApiClient.ConnectionCallbacks,
-        GoogleApiClient.OnConnectionFailedListener {
+public class Start extends AppCompatActivity {
 
     GoogleApiClient mGoogleApiClient;
     LocationRequest mLocationRequest;
     static final int MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1;
     FirebaseDatabase mFirebaseDatabase;
-
+    Timer timer;
     Query Q;
     private FirebaseRecyclerAdapter<Atraction, Tab1.NewsViewHolder> RVAdapter;
     DatabaseReference myRef;
@@ -107,17 +109,11 @@ public class Start extends AppCompatActivity implements LocationListener, Google
                      });
 */
 
+        getWindow().setFlags(
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+        );
 
-        mLocationRequest = new LocationRequest();
-        mLocationRequest.setInterval(5000);
-        mLocationRequest.setFastestInterval(5000);
-        mLocationRequest.setNumUpdates(1);
-        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-        mGoogleApiClient = new GoogleApiClient.Builder(this)
-                .addConnectionCallbacks(this)
-                .addOnConnectionFailedListener(this)
-                .addApi(LocationServices.API)
-                .build();
 
         Button bt = (Button) findViewById(R.id.start_text);
         mFirebaseDatabase = FirebaseDatabase.getInstance();
@@ -181,6 +177,17 @@ public class Start extends AppCompatActivity implements LocationListener, Google
             }
         });
 
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                Intent goHome = new Intent(Start.this,ChooseActivity.class);
+                startActivity(goHome);
+            }
+        },4000);
+
+
+
         bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -211,118 +218,8 @@ public class Start extends AppCompatActivity implements LocationListener, Google
 
 
     }
-    @Override
-    protected void onStart() {
-        mGoogleApiClient.connect();
-        super.onStart();
-    }
 
-    @Override
-    protected void onStop() {
-        mGoogleApiClient.disconnect();
-        super.onStop();
-    }
 
-    @Override
-    public void onLocationChanged(final Location location) {
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
-
-        final DatabaseReference myRef = database.getReference("Location");
-        if (location != null) {
-            new Handler().postDelayed(new Runnable() {
-
-                @Override
-                public void run() {
-            String strLocation =
-                    DateFormat.getTimeInstance().format(location.getTime()) + "\n" +
-                            "Latitude=" + location.getLatitude() + "\n" +
-                            "Longitude=" + location.getLongitude();
-
-            String key1 = myRef.push().getKey();
-            HashMap<String, Object> postValues1 = new HashMap<>();
-            postValues1.put("latt", location.getLatitude());
-            postValues1.put("long", location.getLongitude());
-
-            Map<String, Object> childUpdates1 = new HashMap<>();
-            childUpdates1.put( key1,postValues1);
-            // childUpdates.put("/user-messages/Jirawatee/" + key, postValues);
-
-            myRef.updateChildren(childUpdates1);
-                }
-            }, 10000);
-        }
-    }
-
-    @Override
-    public void onConnected(@Nullable Bundle bundle) {
-
-        if (ActivityCompat.checkSelfPermission(this,
-                android.Manifest.permission.ACCESS_FINE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED
-                && ActivityCompat.checkSelfPermission(this,
-                android.Manifest.permission.ACCESS_COARSE_LOCATION)
-                != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            ActivityCompat.requestPermissions(Start.this,
-                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION},
-                    MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
-
-            return;
-        }
-        LocationServices.FusedLocationApi.requestLocationUpdates(
-                mGoogleApiClient, mLocationRequest, this);
-
-    }
-
-    @Override
-    public void onRequestPermissionsResult(
-            int requestCode,
-            @NonNull String[] permissions,
-            @NonNull int[] grantResults) {
-        switch (requestCode) {
-            case MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION: {
-                // If request is cancelled, the result arrays are empty.
-                if (grantResults.length > 0
-                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                   /* Toast.makeText(Start.this,
-                            "permission was granted, :)",
-                            Toast.LENGTH_LONG).show();
-*/
-                    try{
-                        LocationServices.FusedLocationApi.requestLocationUpdates(
-                                mGoogleApiClient, mLocationRequest, this);
-                    }catch(SecurityException e){
-                        Toast.makeText(Start.this,
-                                "SecurityException:\n" + e.toString(),
-                                Toast.LENGTH_LONG).show();
-                    }
-                } else {
-                    Toast.makeText(Start.this,
-                            "permission denied, ...:(",
-                            Toast.LENGTH_LONG).show();
-                }
-                return;
-            }
-        }
-    }
-
-    @Override
-    public void onConnectionSuspended(int i) {
-
-    }
-
-    @Override
-    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-        Toast.makeText(Start.this,
-                "onConnectionFailed: \n" + connectionResult.toString(),
-                Toast.LENGTH_LONG).show();
-    }
 }
 
 
