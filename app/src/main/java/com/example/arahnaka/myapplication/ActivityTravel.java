@@ -239,6 +239,7 @@ public class ActivityTravel extends AppCompatActivity implements android.locatio
         BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
         BottomNavigationViewHelper.enableNavigation(ActivityTravel.this,bottomNavigationViewEx);
         Menu menu =bottomNavigationViewEx.getMenu();
+
         MenuItem menuItem=menu.getItem(ACTIVITY_NUM);
         menuItem.setChecked(true);
     }
