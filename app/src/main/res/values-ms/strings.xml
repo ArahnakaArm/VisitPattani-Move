@@ -105,9 +105,9 @@
     <string name = "AG5">1.1 Kandungan bermaksud maklumat seperti teks, fail audio, muzik, imej, video, perisian, program, kod komputer dan lain-lain perkara yang serupa.</string>
     <string name = "AG6">1.2 Kandungan bermaksud kandungan yang boleh diakses menerusi perkhidmatan.</string>
     <string name = "AG7">1.3 Kandungan dari pengguna bermaksud kandungan yang dihantar, dihantar, atau dimuatkan oleh pengguna.</string>
-    <string name = "AG8">1.4 Syiling bermaksud mata wang maya yang boleh digunakan oleh pengguna untuk membayar kandungan dan perkhidmatan yang ditawarkan syarikat, yang dikenakan</string>
-    <string name = "AG9">1.5 Terma dan syarat tambahan merujuk kepada dokumen yang syarikat itu Dikeluarkan atau dimuat naik berhubung dengan Perkhidmatan di bawah nama, perjanjian, garis panduan, dasar dan sebagainya.</string>
-    <string name = "AG10">2. Bersetuju dengan terma dan syarat</string>
+    <string name = "AG77">1.4 Syarikat merujuk kepada syarikat perkhidmatan. Atau pemaju</string>
+    <string name = "AG8">1.5 Syiling bermaksud mata wang maya yang boleh digunakan oleh pengguna untuk membayar kandungan dan perkhidmatan yang ditawarkan syarikat, yang dikenakan</string>
+    <string name = "AG9">1.6 Terma dan syarat tambahan merujuk kepada dokumen yang syarikat itu Dikeluarkan atau dimuat naik berhubung dengan Perkhidmatan di bawah nama, perjanjian, garis panduan, dasar dan sebagainya.</string><string name = "AG10">2. Bersetuju dengan terma dan syarat</string>
     <string name = "AG11">2.1 Semua pengguna mesti menggunakan perkhidmatan ini. Mengikut terma yang dinyatakan dalam terma dan syarat Pengguna tidak dapat menggunakan perkhidmatan ini. Kecuali kecuali Pengguna bersetuju untuk menerima terma dan syarat. Perjanjian itu sah dan tidak dapat dibatalkan.</string>
     <string name = "AG12">2.2 Kanak-kanak boleh menggunakan perkhidmatan ini Hanya boleh diperoleh dengan persetujuan ibu bapa atau penjaga yang sah Setuju untuk menerima bahawa ia adalah lengkap dan tidak boleh ditarik balik</string>
     <string name = "AG13">2.3 Dengan menggunakan perkhidmatan ini, pengguna bersetuju untuk menerima terma dan syarat. Perjanjian itu sah dan tidak dapat dibatalkan.</string>
@@ -127,6 +127,14 @@
     <string name = "AG27">5.2 Syarikat menjanjikan untuk melindungi privasi dan maklumat peribadi para pengguna syarikat mengikut dasar garis perlindungan privasi.</string>
     <string name = "AG28">5.3 Syarikat menjanjikan untuk mengambil perhatian dan perhatian sepenuhnya terhadap langkah-langkah keselamatan syarikat. Untuk memastikan keselamatan apa-apa maklumat semua pengguna</string>
     <string name = "AG29">Back</string>
+    <string name="AG30">6. Pengurusan data</string>
+    <string name="AG31">6.1 Permohonan akan berkongsi data pengguna. Yang merangkumi maklumat peribadi Apabila menggunakan beberapa perkhidmatan dalam aplikasi </string>
+    <string name="AG32">6.2 Permohonan tidak akan mendedahkan maklumat peribadi pengguna kepada orang lain tanpa kelulusan pelanggan. Kecuali dalam kes di mana pendedahan diperlukan mengikut undang-undang atau peraturan yang berkenaan</string>
+    <string name="AG33">7. Sistem peta</string>
+    <string name="AG34">7.1 Permohonan akan meminta kebenaran untuk mengakses kedudukan peribadi. Apabila bermula</string>
+    <string name="AG35">7.2 Pengiktirafan Aplikasi ini akan menjejaki pengguna semasa menggunakan apl pada setiap masa. </string>
+    <string name="AG36">8. Penafian </string>
+    <string name="AG37">Permohonan tidak akan bertanggungjawab untuk sebarang kerosakan. Termasuk kerosakan, kerugian dan perbelanjaan yang ditanggung sama ada secara langsung atau tidak langsung akibat atau disebabkan oleh pengguna yang mengakses laman web ini dan aplikasi mudah alih atau terhadap ganti rugi, kerugian atau caj Membayar disebabkan kegagalan penggunaan, kesilapan, ketinggalan, gangguan, ketidaksempurnaan komputer</string>
     //// HIGHLIGHT2 ////
     <string name = "HL1">Lokasi popular</string>
     <string name = "HL2">Cari lebih ></string>
