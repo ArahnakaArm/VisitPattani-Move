@@ -63,6 +63,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
@@ -242,7 +243,7 @@ public class Map2Activity extends AppCompatActivity implements OnMapReadyCallbac
     public static final int REQUEST_LOCATION_CODE = 99;
     int PROXIMITY_RADIUS = 10000;
 
-
+    private static final int ACTIVITY_NUM = 3;
 
     private Boolean mLocationPermissionsGranted = false;
     private GoogleMap mMap;
@@ -265,6 +266,8 @@ public class Map2Activity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map2);
+        setNavi();
+
 
         mLocationRequest = new LocationRequest();
         mLocationRequest.setInterval(5000);
@@ -1281,6 +1284,15 @@ public class Map2Activity extends AppCompatActivity implements OnMapReadyCallbac
                 Toast.makeText(Map2Activity.this,
                         "onConnectionFailed: \n" + connectionResult.toString(),
                         Toast.LENGTH_LONG).show();
+            }
+            public void  setNavi(){
+                Log.d(TAG, "setupBottomNavigationView: setting up BottomNavigationView");
+                BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx) findViewById(R.id.bottomNavViewBar);
+                BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);
+                BottomNavigationViewHelper.enableNavigation(Map2Activity.this,bottomNavigationViewEx);
+                Menu menu =bottomNavigationViewEx.getMenu();
+                MenuItem menuItem=menu.getItem(ACTIVITY_NUM);
+                menuItem.setChecked(true);
             }
         }
 

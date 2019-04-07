@@ -118,7 +118,7 @@
     <string name = "AG18">4.1 When users provide information about themselves to the company Users must provide true information. Correct and complete while using the service And update the information to the present.</string>
     <string name = "AG19">4.2 If the user registers the password while using the service Users must use caution and have reasonable responsibility to prevent unlawful use of passwords. The company can assume various activities. That is operated using such a password Is an activity that the password owner has to do manually.</string>
     <string name = "AG20">4.3 Users registered to use the service Can delete their accounts and stop using the service at any time Whatever</string>
-    <string name = "AG21">4.4 The Company may suspend or delete a User's account without giving advance notice to the User if the Company considers that the User is in violation or violates the Terms and Conditions</string>
+    <string name = "AG21">4.4 The Company may suspend or delete a User s account without giving advance notice to the User if the Company considers that the User is in violation or violates the Terms and Conditions</string>
     <string name = "AG22">4.5 The company reserves the right to delete any accounts. That has not been activated for 1 year or longer since the date of the latest account activation Without giving any prior notice To users</string>
     <string name = "AG23">4.6 The right to use the service of the user will terminate when the user account is deleted, for whatever reason, the account will not be able to recover even if the user has accidentally deleted his account Ask users to be aware of this too.</string>
     <string name = "AG24">4.7 Each account in the service Is intended for specific use and belongs to the sole owner of the account Users cannot transfer or lend their accounts to any third parties. And any third party Unable to inherit account from user</string>
@@ -207,6 +207,7 @@
     <string name="ER2">Top 10 Excharge Rate</string>
     <string name="ER3">Find More ></string>
     <string name="ER4">Foreign Exchange Rates</string>
+    <string name="ER5">Note: Currency exchange rates may change at any time. Please contact the bank s foreign currency service unit to check the exchange rate before making a transaction.</string>
     ////SECOND////
     <string name="SC1">ExchargeRate</string>
     <string name="SC2">Calculate</string>
