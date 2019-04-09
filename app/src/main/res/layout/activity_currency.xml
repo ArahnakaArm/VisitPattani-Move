@@ -25,6 +25,7 @@
         android:layout_below="@+id/toolbar"
         />
 
+
     <LinearLayout
         android:id="@+id/SubtitleBar"
         android:layout_width="match_parent"
@@ -32,6 +33,8 @@
         android:layout_below="@+id/Title"
         android:orientation="horizontal"
         android:layout_marginTop="5dp">
+
+
 
         <TextView
             android:id="@+id/Subtitle"
@@ -44,7 +47,7 @@
             android:text="@string/ER2"
             android:gravity="left"
             android:layout_marginLeft="12dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="2dp"
             android:layout_marginRight="24dp"
         />
         <TextView
@@ -63,11 +66,25 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/Title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/colorGrapeFruit"
+        android:textStyle="bold"
+        android:fontFamily="@font/mitr_extralight"
+        android:text="@string/ER5"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@+id/SubtitleBar"
+        />
+
     <ListView
         android:id="@+id/lvCurrnecy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/SubtitleBar"
+        android:layout_below="@+id/Title2"
         android:layout_marginBottom="50dp"></ListView>
 
     <include layout="@layout/buttom_navi"/>

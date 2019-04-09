@@ -29,12 +29,12 @@
         android:id="@+id/Title2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="12dp"
+        android:textSize="14dp"
         android:textColor="@color/colorGrapeFruit"
         android:fontFamily="@font/mitr_extralight"
         android:text="@string/ER5"
         android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="12dp"
         android:layout_below="@+id/Title"
         />
 
