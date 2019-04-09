@@ -118,7 +118,7 @@
     <string name = "AG18">4.1 When users provide information about themselves to the company Users must provide true information. Correct and complete while using the service And update the information to the present.</string>
     <string name = "AG19">4.2 If the user registers the password while using the service Users must use caution and have reasonable responsibility to prevent unlawful use of passwords. The company can assume various activities. That is operated using such a password Is an activity that the password owner has to do manually.</string>
     <string name = "AG20">4.3 Users registered to use the service Can delete their accounts and stop using the service at any time Whatever</string>
-    <string name = "AG21">4.4 The Company may suspend or delete a User's account without giving advance notice to the User if the Company considers that the User is in violation or violates the Terms and Conditions</string>
+    <string name = "AG21">4.4 The Company may suspend or delete a User s account without giving advance notice to the User if the Company considers that the User is in violation or violates the Terms and Conditions</string>
     <string name = "AG22">4.5 The company reserves the right to delete any accounts. That has not been activated for 1 year or longer since the date of the latest account activation Without giving any prior notice To users</string>
     <string name = "AG23">4.6 The right to use the service of the user will terminate when the user account is deleted, for whatever reason, the account will not be able to recover even if the user has accidentally deleted his account Ask users to be aware of this too.</string>
     <string name = "AG24">4.7 Each account in the service Is intended for specific use and belongs to the sole owner of the account Users cannot transfer or lend their accounts to any third parties. And any third party Unable to inherit account from user</string>
@@ -135,6 +135,10 @@
     <string name="AG35">7.2 Acknowledgment The application will keep track of users while using the app at all times.</string>
     <string name="AG36">8. Disclaimer </string>
     <string name="AG37">The application will not be liable for any damage. Including damages, losses and expenses incurred either directly or indirectly as a result or due to the users accessing this website and mobile applications or against damages, losses or charges Paying due to failure in use, errors, omissions, interruptions, computer imperfections </string>
+    ////Pattani////
+    <string name="PN1">About Pattani</string>
+    <string name="PN2">Pattani Kingdom (Malay: كراجأن ڤتاني; Kerajaan Patani) is located in the southern part of Thailand. In the areas of Pattani, Yala, Narathiwat (Sato), Satun and Songkhla. The Kingdom of Pattani was born before the Kingdom of Siam, 500 years old, starting from a small tribe together, with a population of 200-250 people. (The chief of the tribe of those days) came to rule and will switch every 1 year later. There is a large group of people who have played a role in this area until finally being included as part of the Kingdom of Lanka. And changed from the name of the year to be the Baluga, which is about the 9th century Buddhist era. After about 100 years, the son of King Langsaka arrived here and was impressed. So the new name was changed to Pata Ening and was founded as a new state called Pata Eining State, so many merchants came to contact both Chinese and Arab traders. But the Arabs called here that Fattani had called this land. Different Formerly Pattani Empire, Mahayana Buddhism But in the 21st century, Buddhism began to change to Islam. Some parts of the kingdom spread to Kelantan and Terengganu. Central Malaysia But after the end of the Sri Wang Sa dynasty The Pattani kingdom began to deteriorate. Until being in the power of Siam in the year 1786 and became a city until the year 2445 was included as part of Siam </string>
+    <string name="PN3">Back</string>
     //// HIGHLIGHT2 ////
     <string name = "HL1">Popular locations</string>
     <string name = "HL2">Find More ></string>
@@ -207,6 +211,7 @@
     <string name="ER2">Top 10 Excharge Rate</string>
     <string name="ER3">Find More ></string>
     <string name="ER4">Foreign Exchange Rates</string>
+    <string name="ER5">Note: Currency exchange rates may change at any time. Please contact the bank s foreign currency service unit to check the exchange rate before making a transaction.</string>
     ////SECOND////
     <string name="SC1">ExchargeRate</string>
     <string name="SC2">Calculate</string>

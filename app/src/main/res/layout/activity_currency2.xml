@@ -25,12 +25,24 @@
         android:layout_marginBottom="5dp"
         android:layout_below="@+id/toolbar"
         />
+    <TextView
+        android:id="@+id/Title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/colorGrapeFruit"
+        android:fontFamily="@font/mitr_extralight"
+        android:text="@string/ER5"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@+id/Title"
+        />
 
     <ListView
         android:id="@+id/lvCurrnecy2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Title"
+        android:layout_below="@+id/Title2"
         android:layout_marginBottom="50dp"></ListView>
 
     <include layout="@layout/buttom_navi"/>

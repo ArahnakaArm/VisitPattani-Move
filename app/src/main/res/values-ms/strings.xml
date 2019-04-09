@@ -5,7 +5,7 @@
     <string name = "CH1">Selamat datang ke</string>
     <string name = "CH2">VisitPattani</string>
     <string name = "CH3">Setiap perjalanan .. ada di tangan anda</string>
-    <string name = "CH4">bahasa</string>
+    <string name = "CH4">Bahasa</string>
     <string name = "CH5">Thai</string>
     <string name = "CH6">Inggeris</string>
     <string name = "CH7">Melayu</string>
@@ -38,15 +38,15 @@
     <string name = "PF2">Nama-Nama Akhir</string>
     <string name = "PF3">Sex</string>
     <string name = "PF4">Male</string>
-    <string name = "PF5">wanita</string>
-        <string name = "PF6">umur</string>
+    <string name = "PF5">Wanita</string>
+    <string name = "PF6">Umur</string>
     <string name = "PF7">Kebangsaan</string>
-    <string name = "PF8">alamat</string>
+    <string name = "PF8">Alamat</string>
     <string name = "PF9">Penginapan</string>
     <string name = "PF10">Anggaran perjalanan</string>
-    <string name = "PF11">baht</string>
+    <string name = "PF11">Baht</string>
     <string name = "PF12">Masa perjalanan</string>
-    <string name = "PF13">hari</string>
+    <string name = "PF13">Hari</string>
     <string name = "PF14">Kenderaan perjalanan</string>
     <string name = "PF15">Simpan data</string>
     //// MAIN ////
@@ -61,12 +61,12 @@
     <string name = "TV2">Berita baru</string>
     <string name = "TV3">Tema</string>
     <string name = "TV4">Perancangan</string>
-    <string name = "TV5">diary</string>
+    <string name = "TV5">Diary</string>
     <string name = "TV6">Restoran</string>
-    <string name = "TV7">penginapan</string>
-    <string name = "TV8">shop</string>
+    <string name = "TV7">Penginapan</string>
+    <string name = "TV8">Shop</string>
     <string name = "TV9">Salat</string>
-    <string name = "TV10">nilai mata wang</string>
+    <string name = "TV10">Nilai Mata Wang</string>
     <string name = "TV11">Bantuan</string>
     <string name = "TV12">Perihal</string>
     ///// CHECKIN (MAP) /////
@@ -85,7 +85,7 @@
     <string name = "MP10">Museum</string>
     <string name = "MP11">Restoran</string>
     <string name = "MP12">Shop</string>
-    <string name = "MP13">minyak pam</string>
+    <string name = "MP13">Minyak pam</string>
     ///// BOTTOM NAVI ////
     <string name = "BN1">Halaman utama</string>
     <string name = "BN2">Perjalanan</string>
@@ -135,6 +135,10 @@
     <string name="AG35">7.2 Pengiktirafan Aplikasi ini akan menjejaki pengguna semasa menggunakan apl pada setiap masa. </string>
     <string name="AG36">8. Penafian </string>
     <string name="AG37">Permohonan tidak akan bertanggungjawab untuk sebarang kerosakan. Termasuk kerosakan, kerugian dan perbelanjaan yang ditanggung sama ada secara langsung atau tidak langsung akibat atau disebabkan oleh pengguna yang mengakses laman web ini dan aplikasi mudah alih atau terhadap ganti rugi, kerugian atau caj Membayar disebabkan kegagalan penggunaan, kesilapan, ketinggalan, gangguan, ketidaksempurnaan komputer</string>
+    ////Pattani////
+    <string name="PN1">Mengenai Pattani</string>
+    <string name="PN2">Pattani Kingdom (Bahasa Melayu: كراجأن ڤتاني; Kerajaan Patani) terletak di bahagian selatan Thailand. Di kawasan Pattani, Yala, Narathiwat (Sato), Satun dan Songkhla. Kerajaan Pattani dilahirkan sebelum Kerajaan Siam, 500 tahun, bermula dari satu suku kecil bersama dengan penduduk 200-250 orang. (Ketua suku hari itu) telah memerintah dan akan bertukar setiap 1 tahun kemudian. Ada sekumpulan besar orang yang memainkan peranan dalam bidang ini sehingga akhirnya dimasukkan sebagai sebahagian Kerajaan Kerajaan Lanka. Dan berubah dari nama tahun ini menjadi Baluga, yang merupakan era Buddhis abad ke-9. Setelah kira-kira 100 tahun, putra Langsaka tiba di sini dan terkesan. Jadi nama baru itu diubah kepada Pata Ening dan diasaskan sebagai negeri baru bernama Pata Eining State, begitu banyak peniaga datang untuk menghubungi pedagang Cina dan Arab. Tetapi orang-orang Arab menyebut di sini bahawa Fattani telah memanggil tanah ini. Berbeza Dahulunya Empayar Pattani, Buddhisme Mahayana Tetapi pada abad ke-21, agama Buddha mula berubah menjadi Islam. Beberapa bahagian kerajaan menyebar ke Kelantan dan Terengganu. Central Malaysia Tetapi selepas akhir dinasti Sri Wang Sa Kerajaan Pattani mula merosot. Sehingga menjadi kuasa Siam pada tahun 1786 dan menjadi sebuah kota sehingga tahun 2445 dimasukkan sebagai sebahagian daripada Siam</string>
+    <string name="PN3">Back</string>
     //// HIGHLIGHT2 ////
     <string name = "HL1">Lokasi popular</string>
     <string name = "HL2">Cari lebih ></string>
@@ -211,6 +215,7 @@
     <string name="ER2">Kadar Bayaran Teratas 10</string>
     <string name="ER3">Cari lebih ></string>
     <string name="ER4">Kadar tukaran asing</string>
+    <string name="ER5">Nota: Kadar tukaran mata wang boleh berubah pada bila-bila masa. Sila hubungi unit khidmat mata wang asing bank untuk menyemak kadar tukaran sebelum membuat transaksi.</string>
     ////SECOND////
     <string name="SC1">ExchargeRate</string>
     <string name="SC2">Calculator</string>

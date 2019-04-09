@@ -145,6 +145,7 @@ public class HotelActivity extends AppCompatActivity implements View.OnClickList
         RecyclerViewAdapterHotel adapterHo = new RecyclerViewAdapterHotel(this, mImageUrlsHo, mNamesHo, mDateHo, mDesHo, mlocateHo, mtelHo, mRatingHo, mPriceHo);
         recyclerView.setAdapter(adapterHo);
     }
+
     public boolean onCreateOptionsMenu(Menu menu) {
 
         getMenuInflater().inflate(R.menu.menu_main, menu);
